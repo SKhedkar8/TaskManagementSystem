@@ -1,89 +1,3 @@
-# 📋 Task Management System
-
-A modern **Task Management System** developed using the **Mendix Low-Code Platform**.
-
-This application enables an **Administrator** to manage users, **Managers** to assign and review tasks, and **Employees** to update task progress and receive feedback through a secure role-based workflow.
-
----
-
-# ✨ Features
-
-## 👨‍💼 Administrator
-
-- Create Manager accounts
-- Create Employee accounts
-- Manage users
-- View reports
-- System administration
-
----
-
-## 👨‍💻 Manager
-
-- Assign tasks
-- Set deadlines
-- Set task priority
-- Review employee work
-- Approve or reject tasks
-- Provide feedback
-- View dashboard statistics
-
----
-
-## 👩‍💼 Employee
-
-- View assigned tasks
-- Update task status
-- View manager feedback
-- Track task deadlines
-
----
-
-# 🛠 Technology Stack
-
-| Technology | Used |
-|------------|------|
-| Mendix Studio Pro | ✅ |
-| Atlas UI | ✅ |
-| Java Actions | ✅ |
-| Microflows | ✅ |
-| XPath | ✅ |
-| Domain Model | ✅ |
-| Security | ✅ |
-| Git | ✅ |
-| GitHub | ✅ |
-
----
-
-# 🏗 Project Architecture
-
-```text
-Administrator
-      │
-      ▼
-Create Users
-      │
-      ▼
-Manager
-      │
-      ▼
-Assign Tasks
-      │
-      ▼
-Employee
-      │
-      ▼
-Update Task Status
-      │
-      ▼
-Manager Review
-      │
-      ▼
-Feedback & Approval
-```
-
----
-
 # 📸 Application Screenshots
 
 ## 🔐 Login Page
@@ -92,7 +6,7 @@ Feedback & Approval
 
 ---
 
-## 🛡 Administrator Dashboard
+## 🛠 Administrator Dashboard
 
 ![Administrator Dashboard](screenshots/admin-dashboard.png)
 
@@ -110,19 +24,13 @@ Feedback & Approval
 
 ---
 
-## 📝 Assign Task
+## ✅ Assign Task
 
 ![Assign Task](screenshots/assign-task.png)
 
 ---
 
-## ✅ Task Review
-
-![Task Review](screenshots/task-review.png)
-
----
-
-## 👨‍💻 Employee Dashboard
+## 👩‍💻 Employee Dashboard
 
 ![Employee Dashboard](screenshots/employee-dashboard.png)
 
@@ -140,74 +48,24 @@ Feedback & Approval
 
 ---
 
-## 📊 Statistics
+## 📊 Statistics Dashboard (Page 1)
 
-![Statistics](screenshots/statistics.png)
-
----
-
-## 🏛 System Architecture
-
-![Architecture](screenshots/architecture.png)
+![Statistics 1](screenshots/statistics1.png)
 
 ---
 
-# 📦 Main Modules
+## 📈 Statistics Dashboard (Page 2)
 
-- Administration
-- Task Management
-- Security
-- Statistics
-- Reports
+![Statistics 2](screenshots/statistics2.png)
 
 ---
 
-# 🔄 Workflow
+## ✔ Task Review
 
-1. Administrator creates user accounts.
-2. Manager assigns tasks to employees.
-3. Employee updates task status.
-4. Manager reviews completed tasks.
-5. Manager approves or rejects tasks.
-6. Employee views manager feedback.
+![Task Review](screenshots/task-review.png)
 
 ---
 
-# 🔐 Security
+## 👥 User Management
 
-The application uses **Role-Based Access Control (RBAC)**.
-
-### User Roles
-
-- Administrator
-- Manager
-- Employee
-
-Each role has access only to the pages and data permitted by its assigned permissions.
-
----
-
-# 🚀 Future Improvements
-
-- Email notifications
-- File attachments
-- Interactive dashboard charts
-- Calendar view
-- Mobile responsive design
-- Task comments
-- Dark / Light theme
-- Export reports to Excel
-
----
-
-# 👨‍💻 Author
-
-**Shreyas Khedkar**
-
-GitHub: https://github.com/SKhedkar8
-
----
-
-# 📄 License
-
-This project was developed for educational, learning, and portfolio purposes.
+![User Management](screenshots/user-management.png)
