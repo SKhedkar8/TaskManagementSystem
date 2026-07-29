@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javasource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/com.mendix.json.jar"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/com.mendix.logging-api.jar"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/com.mendix.m2ee-api.jar"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/com.mendix.public-api.jar"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar"/>
+	<classpathentry kind="lib" path="A:/New Volume/10.24.21.108016/runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcpkix-jdk18on-1.84.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcprov-jdk18on-1.84.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcutil-jdk18on-1.84.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-lang3-3.18.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/error_prone_annotations-2.38.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/gson-2.13.1.jar"/>
+	<classpathentry kind="lib" path="vendorlib/HikariCP-5.0.1.jar"/>
+	<classpathentry kind="lib" path="vendorlib/hsqldb-2.7.1.jar"/>
+	<classpathentry kind="lib" path="vendorlib/mariadb-java-client-2.7.5.jar"/>
+	<classpathentry kind="lib" path="vendorlib/mssql-jdbc-12.10.2.jre11.jar"/>
+	<classpathentry kind="lib" path="vendorlib/ojdbc8-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/ons-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/oraclepki-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/osdt_cert-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/osdt_core-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/postgresql-42.7.11.jar"/>
+	<classpathentry kind="lib" path="vendorlib/simplefan-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/slf4j-api-2.0.7.jar"/>
+	<classpathentry kind="lib" path="vendorlib/snowflake-jdbc-4.0.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/ucp-21.5.0.0.jar"/>
+	<classpathentry kind="lib" path="userlib/postgresql-42.7.10.jar"/>
+	<classpathentry kind="output" path="deployment/run/bin"/>
+</classpath>
