@@ -1,14 +1,14 @@
 # 📋 Task Management System
 
-A modern Task Management System developed using **Mendix Low-Code Platform**.
+A modern **Task Management System** developed using the **Mendix Low-Code Platform**.
 
-The application allows an Administrator to create users, Managers to assign and review tasks, and Employees to update task progress and receive feedback.
+This application enables an **Administrator** to manage users, **Managers** to assign and review tasks, and **Employees** to update task progress and receive feedback through a secure role-based workflow.
 
 ---
 
-# Features
+# ✨ Features
 
-### 👨‍💼 Administrator
+## 👨‍💼 Administrator
 
 - Create Manager accounts
 - Create Employee accounts
@@ -18,28 +18,28 @@ The application allows an Administrator to create users, Managers to assign and 
 
 ---
 
-### 👨‍💻 Manager
+## 👨‍💻 Manager
 
 - Assign tasks
 - Set deadlines
-- Set priority
+- Set task priority
 - Review employee work
-- Approve or Reject tasks
+- Approve or reject tasks
 - Provide feedback
-- View statistics
+- View dashboard statistics
 
 ---
 
-### 👩‍💼 Employee
+## 👩‍💼 Employee
 
 - View assigned tasks
 - Update task status
-- View feedback
-- Track deadlines
+- View manager feedback
+- Track task deadlines
 
 ---
 
-# Technology Stack
+# 🛠 Technology Stack
 
 | Technology | Used |
 |------------|------|
@@ -55,89 +55,104 @@ The application allows an Administrator to create users, Managers to assign and 
 
 ---
 
-# Project Architecture
+# 🏗 Project Architecture
 
+```text
 Administrator
-↓
+      │
+      ▼
 Create Users
-↓
+      │
+      ▼
 Manager
-↓
+      │
+      ▼
 Assign Tasks
-↓
+      │
+      ▼
 Employee
-↓
+      │
+      ▼
 Update Task Status
-↓
+      │
+      ▼
 Manager Review
-↓
+      │
+      ▼
 Feedback & Approval
+```
 
 ---
 
-# Application Screenshots
+# 📸 Application Screenshots
 
-## Login Page
+## 🔐 Login Page
 
-![Login](screenshots/login-page.png)
-
----
-
-## Admin Dashboard
-
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Login Page](screenshots/login-page.png)
 
 ---
 
-## Create User
+## 🛡 Administrator Dashboard
+
+![Administrator Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## 👤 Create User
 
 ![Create User](screenshots/create-user.png)
 
 ---
 
-## Manager Dashboard
+## 👨‍💼 Manager Dashboard
 
 ![Manager Dashboard](screenshots/manager-dashboard.png)
 
 ---
 
-## Assign Task
+## 📝 Assign Task
 
 ![Assign Task](screenshots/assign-task.png)
 
 ---
 
-## Employee Dashboard
+## ✅ Task Review
+
+![Task Review](screenshots/task-review.png)
+
+---
+
+## 👨‍💻 Employee Dashboard
 
 ![Employee Dashboard](screenshots/employee-dashboard.png)
 
 ---
 
-## My Tasks
+## 📋 My Tasks
 
 ![My Tasks](screenshots/my-tasks.png)
 
 ---
 
-## Feedback
+## 💬 Feedback
 
 ![Feedback](screenshots/feedback.png)
 
 ---
 
-## Statistics
+## 📊 Statistics
 
 ![Statistics](screenshots/statistics.png)
 
 ---
 
-## System Architecture
+## 🏛 System Architecture
 
 ![Architecture](screenshots/architecture.png)
 
 ---
 
-# Main Modules
+# 📦 Main Modules
 
 - Administration
 - Task Management
@@ -147,53 +162,52 @@ Feedback & Approval
 
 ---
 
-# Workflow
+# 🔄 Workflow
 
-1. Administrator creates users.
-2. Manager assigns tasks.
+1. Administrator creates user accounts.
+2. Manager assigns tasks to employees.
 3. Employee updates task status.
-4. Manager reviews completed work.
-5. Manager approves/rejects tasks.
-6. Employee views feedback.
+4. Manager reviews completed tasks.
+5. Manager approves or rejects tasks.
+6. Employee views manager feedback.
 
 ---
 
-# Security
+# 🔐 Security
 
-The application uses Role-Based Access Control (RBAC).
+The application uses **Role-Based Access Control (RBAC)**.
 
-### Roles
+### User Roles
 
 - Administrator
 - Manager
 - Employee
 
-Each role has access only to its authorized pages and data.
+Each role has access only to the pages and data permitted by its assigned permissions.
 
 ---
 
-# Future Improvements
+# 🚀 Future Improvements
 
-- Email Notifications
-- File Attachments
-- Dashboard Charts
-- Calendar View
-- Mobile Responsive UI
-- Task Comments
-- Dark/Light Theme
-- Export Reports to Excel
+- Email notifications
+- File attachments
+- Interactive dashboard charts
+- Calendar view
+- Mobile responsive design
+- Task comments
+- Dark / Light theme
+- Export reports to Excel
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Shreyas Khedkar**
 
-GitHub:
-https://github.com/YOUR_USERNAME
+GitHub: https://github.com/SKhedkar8
 
 ---
 
-# License
+# 📄 License
 
-This project is created for educational and portfolio purposes.
+This project was developed for educational, learning, and portfolio purposes.
